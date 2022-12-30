@@ -1,0 +1,31 @@
+Object Name: Students
+Field Name	Data Type	
+Student name	Text	
+Dob	Date	
+Gender	Picklist	
+Age	Number	
+Father Name	Text	
+Mother Name	Text	
+Address	Text Area	
+Email	Email	
+Class	Look up Relationship	Object
+
+Object Name: Class
+Class 	Picklist	
+Start year	Picklist	
+End year	picklist	
+Teacher	Look up Relationship	Object
+Strength		
+		
+
+Object Name: Teacher
+Teacher Name	Text	
+Subjects handles		
+Classes handles		
+
+
+Object Name: Subject
+Subject Name	PickList	
+		
+		
+
