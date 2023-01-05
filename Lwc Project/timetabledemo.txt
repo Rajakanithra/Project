@@ -1,0 +1,47 @@
+<template>
+    <lightning-card title="Time Table">
+    <div style="height: 500px;">
+        <template if:true={periodList}>
+             <lightning-datatable
+                     key-field="id"
+                     data={periodList}
+                     columns={columns}>
+             </lightning-datatable>
+        </template>
+        </div>
+    </lightning-card>
+</template>
+
+Js:
+import { LightningElement,track,wire } from 'lwc';
+import getPeriods from '@salesforce/apex/TimeTable.getPeriods';
+
+export default class TimeTableCreation extends LightningElement {
+    @track columns = [
+        { label: 'Day', fieldName: 'Day__c' },
+        { label: 'FirstHour', fieldName: 'FirstHour__c'},
+        { label: 'SecondHour',fieldName:'SecondHour__c'},
+        { label: 'ThirdHour',fieldName:'ThirdHour__c'},
+        { label: 'FourthHour',fieldName:'FourthHour__c'},
+        { label: 'FifthHour',fieldName:'FifthHour__c'}
+    ];
+   @track periodList;
+   @wire (getPeriods) wiredPeriods({data,error}){
+    if (data) {
+         this.periodList = data;
+    console.log(data); 
+    } else if (error) {
+    console.log(error);
+    }
+}
+}
+
+Meta:
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__HomePage</target>
+    </targets>
+</LightningComponentBundle>
