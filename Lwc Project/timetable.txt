@@ -1,0 +1,110 @@
+<template>
+    <lightning-card>
+        <div class="slds-grid slds-wrap">
+            <div class="slds-col slds-size_1-of-1">
+
+                <div class="slds-grid">
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Timing</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">MON</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">TUE</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">WED</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">THU</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">FRI</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">SAT</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">SUN</div>
+                </div>
+            </div>
+            <div class="slds-col slds-size_1-of-1">
+
+                <div class="slds-grid">
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">9-10AM</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Tamil</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">English</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Maths</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Science</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Social</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Holiday</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Holiday</div>
+                </div>
+            </div>
+            <div class="slds-col slds-size_1-of-1">
+
+                <div class="slds-grid">
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">10-11AM</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">English</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Maths</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Science</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Social</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Tamil</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Holiday</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Holiday</div>
+                </div>
+            </div>
+            <div class="slds-col slds-size_1-of-1">
+
+                <div class="slds-grid">
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">11-12PM</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Maths</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Science</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Social</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Tamil</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">English</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Holiday</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Holiday</div>
+                </div>
+            </div>
+            <div class="slds-col slds-size_1-of-1">
+
+                <div class="slds-grid">
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">12-1PM</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Lunch</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Lunch</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Lunch</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Lunch</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Lunch</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Holiday</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Holiday</div>
+                </div>
+            </div>
+            <div class="slds-col slds-size_1-of-1">
+
+                <div class="slds-grid">
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">1-2PM</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Science</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Social</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Tamil</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">English</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Maths</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Holiday</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Holiday</div>
+                </div>
+            </div>
+            <div class="slds-col slds-size_1-of-1">
+
+                <div class="slds-grid">
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">2-3PM</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Social</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Tamil</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">English</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Maths</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Science</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Holiday</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Holiday</div>
+                </div>
+            </div>
+            <div class="slds-col slds-size_1-of-1">
+
+                <div class="slds-grid">
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">3-4PM</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Maths</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Tamil</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Science</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">English</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Social</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Holiday</div>
+                    <div class="slds-col slds-border_top slds-border_bottom slds-border_right slds-border_left">Holiday</div>
+                </div>
+            </div>
+        </div>
+    </lightning-card>
+</template>
