@@ -45,3 +45,12 @@ Meta:
         <target>lightning__HomePage</target>
     </targets>
 </LightningComponentBundle>
+
+
+Apex:
+public with sharing class TimeTable {
+    @AuraEnabled(cacheable=true)
+    public static List<TimeTable__c> getPeriods() {
+        return [SELECT Id,Day__c,FirstHour__c,SecondHour__c,ThirdHour__c,FourthHour__c,FifthHour__c from TimeTable__c];
+    }
+}
